@@ -1,0 +1,8 @@
+
+.it {
+    display: flex;
+    padding-top: 100px;
+    background: url(../provide/provimg/pattern-bg-1.jpg), #0E163A;
+    background-size: cover;
+   
+}

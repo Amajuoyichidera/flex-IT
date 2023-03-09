@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0E163B;
+    position: fixed;
+    width: 100%;
+   padding: 10px;
+   padding-top: 30px;
+   gap: 80px;
+}
+a {
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;   
+    font-size: 20px; 
+}
+nav img {
+    padding-bottom: 20px;
+}
