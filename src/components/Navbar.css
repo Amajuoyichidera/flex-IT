@@ -1,18 +1,24 @@
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #0E163B;
+    background: url(../components/home/provide/provimg/pattern-bg-1.jpg), #1A244E;
+    background-size: cover;
+    background-blend-mode: multiply;
     position: fixed;
     width: 100%;
-   padding: 10px;
-   padding-top: 30px;
-   gap: 80px;
+   padding-top: 20px;
+   gap: 530px;
+   z-index: 100;
 }
 a {
     padding-right: 50px;
     text-decoration: none;
     color: white;   
     font-size: 20px; 
+}
+a:hover {
+    color: #09AFF4;
+    transition: all 2s;
 }
 nav img {
     padding-bottom: 20px;

@@ -1,8 +1,118 @@
-
 .it {
     display: flex;
+    justify-content: center;
+    gap: 120px;
     padding-top: 100px;
-    background: url(../provide/provimg/pattern-bg-1.jpg), #0E163A;
+    background: url(../provide/provimg/pattern-bg-1.jpg), #1A244E;
     background-size: cover;
-   
+    background-blend-mode: multiply;
+    padding-bottom: 70px;
 }
+.sol {
+    padding-top: 70px;
+}
+.lut {
+    color: #09AFF4;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.prov {
+    color: white;
+    font-size: 55px;
+}
+.lor {
+    color: #9599AA;
+    font-size: 20px;
+    font-weight: 500;
+}
+.illus {
+    height: 85vh;
+    margin-top: -10px;
+}
+.start button {
+    background-color: transparent;
+    border: 2px solid #09AFF4;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #09AFF4;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+.start button:hover {
+    background-color: #09AFF4;
+    color: white;
+    transition: 1.5s;
+}
+.start {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.start img {
+    margin-top: -10px;
+}
+.fb {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.fb img {
+    cursor: pointer;
+}
+.fb img:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+
+.tilt-box-wrap{
+	position: relative;
+	transition: all 0.6s ease-out;
+	perspective: 1000px
+}
+.tilt-box-wrap:hover{
+	transition: all 0.3s linear;
+	transform: scale(1.1);
+    cursor: pointer;
+}
+.tilt-box{
+	position: relative;
+	transition: all 0.6s ease-out;
+	transform:rotateX(0deg) rotateY(0deg);
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.tilt-box strong{
+	transform:translateZ(40px);
+}
+.t_over{
+	width: 33.333%;
+	height: 33.333%;
+	position: absolute;
+	z-index: 1;
+}
+
+.t_over:nth-child(1){ left: 0; top: 0; }
+.t_over:nth-child(2){ left: 33.333%; top: 0; }
+.t_over:nth-child(3){ left: 66.666%; top: 0; }
+.t_over:nth-child(4){ left: 0; top: 33.333%; }
+.t_over:nth-child(5){ left: 33.333%; top: 33.333%; }
+.t_over:nth-child(6){ left: 66.666%; top: 33.333%; }
+.t_over:nth-child(7){ left: 0; top: 66.666%; }
+.t_over:nth-child(8){ left: 33.333%; top: 66.666%; }
+.t_over:nth-child(9){ left: 66.666%; top: 66.666%; }
+.t_over:nth-child(1):hover ~ .tilt-box{transform:rotateX(-20deg) rotateY(20deg);}
+.t_over:nth-child(2):hover ~ .tilt-box{transform: rotateX(-20deg) rotateY(0deg)}
+.t_over:nth-child(3):hover ~ .tilt-box{transform: rotateX(-20deg) rotateY(-20deg)}
+.t_over:nth-child(4):hover ~ .tilt-box{transform: rotateX(0deg) rotateY(20deg)}
+.t_over:nth-child(5):hover ~ .tilt-box{transform: rotateX(0deg) rotateY(0deg)}
+.t_over:nth-child(6):hover ~ .tilt-box{transform: rotateX(0deg) rotateY(-20deg)}
+.t_over:nth-child(7):hover ~ .tilt-box{transform:rotateX(20deg) rotateY(20deg);}
+.t_over:nth-child(8):hover ~ .tilt-box{transform: rotateX(20deg) rotateY(0deg)}
+.t_over:nth-child(9):hover ~ .tilt-box{transform: rotateX(20deg) rotateY(-20deg)}
