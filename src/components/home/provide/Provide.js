@@ -36,16 +36,16 @@ const Provide = () => {
         <section>
         <div class="contaienr">
 	<div class="tilt-box-wrap">
-		<span class="t_over"></span>
-		<span class="t_over"></span>
-		<span class="t_over"></span>
-		<span class="t_over"></span>
-		<span class="t_over"></span>
-		<span class="t_over"></span>
-		<span class="t_over"></span>
-		<span class="t_over"></span>
-		<span class="t_over"></span>
-		<div class="tilt-box">
+		<span className="t_over"></span>
+		<span className="t_over"></span>
+		<span className="t_over"></span>
+		<span className="t_over"></span>
+		<span className="t_over"></span>
+		<span className="t_over"></span>
+		<span className="t_over"></span>
+		<span className="t_over"></span>
+		<span className="t_over"></span>
+		<div className="tilt-box">
     <img className='illus' src={illustrate} alt={illustrate} />
 		</div>
 	</div>
