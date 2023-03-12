@@ -1,47 +1,27 @@
-.allwhy {
-    background-color: #060922;
+.allnum {
+    background: url(../number/assets/num-bg.jpg), #343e72;
+    background-size: cover;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
-    gap: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    gap: 30px;
 }
-.late img {
-    height: 55vh;
+.finish {
+   border: 1px solid #09AFF4;
+   padding-top: 20px;
+   text-align: center;
+   border-top: 5px solid #09AFF4;
+   width: 280px;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   color: white;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   padding-bottom: 30px;
+   background-color: #091A3A;
 }
-.late {
-    margin-top: 350px;
-}
-.whycus h1:first-of-type {
-    color: #09AFF4;
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-.whycus h1 {
-    color: white;
+.finish h1 {
     font-size: 50px;
-    padding-bottom: 20px;
-}
-.whycus img {
-    margin-bottom: -40px;
-}
-.whycus p {
-    color: #BBBBC2;
-    padding-top: 20px;
-}
-.tech {
-    display: flex;
-    gap: 40px;
-    padding-top: 30px;
-}
-.tech h2 {
-    color: #09AFF4; 
-    font-size: 50px;
-}
-.tech h3 {
-    color: white;
-    font-size: 20px;
-    padding-top: 20px;
 }
 
 
@@ -91,22 +71,3 @@
 .t_over:nth-child(8):hover ~ .tilt-box{transform: rotateX(20deg) rotateY(0deg)}
 .t_over:nth-child(9):hover ~ .tilt-box{transform: rotateX(20deg) rotateY(-20deg)}
 
-
-.whycus button {
-    background-color: #09AFF4;
-    color: white;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    font-size: 20px;
-    cursor: pointer;
-    margin-top: 50px;
-    border: none;
-}
-.whycus button:hover {
-    background-color: transparent;
-    border: 1px solid #09AFF4;
-    transition: 1.5s;
-}
