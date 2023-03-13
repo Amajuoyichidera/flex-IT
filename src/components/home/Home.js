@@ -6,6 +6,8 @@ import Why from './why/Why'
 import Number from './number/Number'
 import Portfolio from './portfolio/Portfolio'
 import Trust from './trust/Trust'
+import Price from './price/Price'
+import Slider from './slider/Slider'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Number />
       <Portfolio />
       <Trust />
+      <Price />
+      <Slider />
 
     </div>
   )

@@ -1,0 +1,136 @@
+.allprice {
+    background-color: #060922;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.price h1:first-of-type {
+    color: #09AFF4;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.price h1 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.price button {
+    background-color: #09AFF4;
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    border: none;
+}
+.price button:hover {
+    background-color: transparent;
+    border: 1px solid #09AFF4;
+    transition: 1.5s;
+}
+.price p {
+    color: #B6B7BE;
+}
+.free {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+.plan {
+    border: 1px solid #09AFF4;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    line-height: 50px;
+    border-radius: 7px;
+}
+.plan1 {
+   background-color: #09AFF4;
+   border: 1px solid #09AFF4;
+   text-align: center;
+   padding: 30px;
+   color: white;
+   line-height: 50px;
+   border-radius: 7px;
+}
+.zero1 {
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+}
+.zero1 p {
+    color: #B9E8FC;
+}
+.plan h3, .plan1 h3 {
+    font-size: 25px;
+}
+.plan1 span {
+    color: white;
+    font-size: 25px;
+}
+span {
+    color: #09AFF4;
+    font-size: 25px;
+}
+.dollar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+.dollar h1 {
+    font-size: 50px;
+}
+.zero {
+    border-bottom: 3px solid #09AFF4;
+    padding-bottom: 10px;
+}
+.zero p {
+    color: #B6B7BE;
+}
+.select {
+    background-color: transparent;
+    border: 2px solid #09AFF4;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #09AFF4;
+}
+.select:hover {
+    background-color: #09AFF4;
+    color: white;   
+    transition: 1.5s;
+} 
+.select1 {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    color: white;
+}
+.select1:hover {
+    background-color: white;
+    color: #09AFF4;   
+    transition: 1.5s;
+} 

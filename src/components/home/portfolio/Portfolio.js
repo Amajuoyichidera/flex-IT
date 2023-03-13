@@ -36,21 +36,21 @@ const Portfolio = () => {
 
      <section>
       <div className="hoverwrap">
-      <img src={App}/>
+      <img src={App} alt={App}/>
       <div className="hovercap">Mobile Apps</div>
       </div>
     </section>
 
     <section>
       <div className="hoverwrap">
-      <img src={cloud}/>
+      <img src={cloud} alt={App}/>
       <div className="hovercap">Cloud</div>
       </div>
     </section>
 
     <section>
       <div className="hoverwrap">
-      <img src={analy}/>
+      <img src={analy} alt={App}/>
       <div className="hovercap">Data Analysis</div>
       </div>
     </section>    
@@ -63,21 +63,21 @@ const Portfolio = () => {
 
      <section>
       <div className="hoverwrap">
-      <img src={host}/>
+      <img src={host} alt={App}/>
       <div className="hovercap">Hosting</div>
       </div>
     </section>
 
     <section>
       <div className="hoverwrap">
-      <img src={seo}/>
+      <img src={seo} alt={App}/>
       <div className="hovercap">SEO</div>
       </div>
     </section>
 
     <section>
       <div className="hoverwrap">
-      <img src={other}/>
+      <img src={other} alt={App}/>
       <div className="hovercap">Other Category</div>
       </div>
     </section>    

@@ -12,12 +12,12 @@ const Trust = () => {
     <section className='trust'>
         <h1>Trusted By Over 500 Clients Around The World</h1>
         <figure>
-            <img src={log} />
-            <img src={ipsum} />
-            <img src={cele}/>
-            <img src={logdark}/>
-            <img src={net} />
-            <img src={ultra} />
+            <img src={log} alt={log} />
+            <img src={ipsum} alt={log} />
+            <img src={cele} alt={log}/>
+            <img src={logdark} alt={log}/>
+            <img src={net} alt={log} />
+            <img src={ultra} alt={log} />
         </figure>
     </section>
   )
