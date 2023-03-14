@@ -4,12 +4,14 @@ import create from '../number/assets/create.png'
 import happy from '../number/assets/happy.png'
 import year from '../number/assets/year.png'
 import '../number/number.css'
+import { Slide } from "react-awesome-reveal";
 
 const Number = () => {
   return (
     <section className='allnum'>
 
-        
+		<Slide>
+			        
 <div class="contaienr">
 	<div class="tilt-box-wrap">
 		<span className="t_over"></span>
@@ -98,6 +100,10 @@ const Number = () => {
        
 
        
+
+
+		</Slide>
+
 
     </section>
   )

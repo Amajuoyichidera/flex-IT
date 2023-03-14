@@ -4,10 +4,13 @@ import stand from '../price/assets/stand.png'
 import pro from '../price/assets/pro.png'
 import ultimate from '../price/assets/ultimate.png'
 import '../price/price.css'
+import { Fade } from "react-awesome-reveal";
 
 const Price = () => {
   return (
     <section className='allprice'>
+
+        <Fade>
         <section className='price'>
             <section>
                 <h1>. PRICING PLANS .</h1>
@@ -79,6 +82,9 @@ const Price = () => {
             </section>
 
         </section>
+
+        </Fade>
+       
 
     </section>
   )

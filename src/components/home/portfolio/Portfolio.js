@@ -6,10 +6,13 @@ import analy from '../portfolio/assets/analy.jpg'
 import host from '../portfolio/assets/hosting.jpg'
 import seo from '../portfolio/assets/seo.jpg'
 import other from '../portfolio/assets/other.jpg'
+import { Fade } from "react-awesome-reveal";
 
 const Portfolio = () => {
   return (
    <section className='allport'>
+
+    <Fade>
     <section className='istport'>
         <section className='port'>
          <h1>. PORTFOLIO .</h1>
@@ -84,6 +87,9 @@ const Portfolio = () => {
 
      </section>
    
+
+    </Fade>
+    
    
    </section>
   )

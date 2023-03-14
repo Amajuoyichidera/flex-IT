@@ -1,0 +1,131 @@
+.allcont {
+    background-color: #060922;
+}
+.contact {
+    padding-top: 100px;
+    padding: 150px;
+    background: url(./assets/inner-page-hero.jpg), #1A244E;
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.around {
+    text-align: center;
+    color: white;
+    font-size: 37px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.new {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+.new p {
+    color: #B7B8BF;
+}
+.new h3 {
+    color: white;
+    font-size: 25px;
+}
+.york {
+    border: 1px solid #09AFF4;
+    border-top: 5px solid #09AFF4;
+    padding: 20px;
+    width: 350px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.mail {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mail img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+}
+.york h5 {
+    width: 70px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-bottom: 3px solid #09AFF4;
+}
+form {
+    padding-bottom: 70px;
+}
+form input {
+    background-color: transparent;
+    border: 1px solid #444759;
+}
+form input:active {
+    border: 1px solid #09AFF4;
+}
+form h1 {
+    color: white;
+    font-size: 37px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.have {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.have input {
+    padding: 15px;
+    width: 565px;
+    border-radius: 3px;
+}
+form h4 {
+    color: white;
+    padding-bottom: 15px;
+}
+em {
+    color: red;
+}
+.subject {
+    margin-left: 95px;
+    margin-bottom: 20px;
+}
+.subject input{
+    padding: 15px;
+    width: 1160px;
+    border-radius: 3px;
+}
+.mess {
+    margin-left: 95px;
+}
+.mess input {
+    padding: 15px;
+    width: 1160px;
+    height: 170px;
+    border-radius: 3px;
+}
+form button {
+    background-color: #09AFF4;
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    border: none;
+    margin-left: 95px;
+}
+form button:hover {
+    background-color: transparent;
+    border: 1px solid #09AFF4;
+    transition: 1.5s;
+}

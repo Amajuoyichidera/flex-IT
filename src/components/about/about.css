@@ -1,0 +1,68 @@
+.abtus {
+    padding-top: 100px;
+    padding: 150px;
+    background: url(./assets/inner-page-hero.jpg), #1A244E;
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.team {
+    background-color: #060922;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.team h1:first-of-type {
+    color: #09AFF4;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.team h1 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.team button {
+    background-color: #09AFF4;
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    border: none;
+}
+.team button:hover {
+    background-color: transparent;
+    border: 1px solid #09AFF4;
+    transition: 1.5s;
+}
+.allabout figure {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #060922;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.allabout figure img {
+    height: 65vh;
+    border-radius: 5px;
+}
+.allabout figure figcaption {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.allabout figure figcaption p {
+    color: #BABBC2;
+}
+

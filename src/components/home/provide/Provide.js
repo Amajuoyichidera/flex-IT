@@ -6,11 +6,14 @@ import play from '../provide/provimg/play.png'
 import fb from '../provide/provimg/fb.png'
 import you from '../provide/provimg/you.png'
 import twi from '../provide/provimg/twi.png'
+import { Slide } from "react-awesome-reveal";
 
 const Provide = () => {
   return (
         <section className='it'>
-        <section className='sol'>
+
+          <Slide>
+          <section className='sol'>
           <section className='fb'>
             <img src={fb} alt={fb} />
             <img src={you} alt={you} />
@@ -32,7 +35,10 @@ const Provide = () => {
                 
              </section>
         </section>
+          </Slide>
+       
 
+        <Slide>
         <section>
         <div class="contaienr">
 	<div class="tilt-box-wrap">
@@ -49,10 +55,12 @@ const Provide = () => {
     <img className='illus' src={illustrate} alt={illustrate} />
 		</div>
 	</div>
-</div>
-
-           
+</div>           
         </section>
+
+        </Slide>
+
+       
     </section>
     
   )

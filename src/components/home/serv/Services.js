@@ -6,6 +6,8 @@ import app from '../serv/assets/app.png'
 import seo from '../serv/assets/seo.png'
 import data from '../serv/assets/data.png'
 import '../serv/service.css'
+import { Slide } from "react-awesome-reveal";
+
 
 const Service = () => {
   return (
@@ -22,31 +24,40 @@ const Service = () => {
             </section>
         </section>
 
+
+        <Slide>
+            
         <section className='red'> 
-            <section className='web'>
-                <img src={web} alt={web} />
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet <br /> consecltetur adipisicing elit. Omnis <br /> tempore perfe rendis explicabo.</p>
-                <p className='read'>Read More &nbsp; &#10141; </p>
-            </section>
+       
+       <section className='web'>
+              <img src={web} alt={web} />
+              <h3>Web Development</h3>
+              <p>Lorem ipsum dolor sit amet <br /> consecltetur adipisicing elit. Omnis <br /> tempore perfe rendis explicabo.</p>
+              <p className='read'>Read More &nbsp; &#10141; </p>
+          </section>
 
-            <section className='web'>
-            <img src={dig} alt={dig} />
-                <h3>Digital Marketing</h3>
-                <p>Lorem ipsum dolor sit amet <br /> consecltetur adipisicing elit. Omnis <br /> tempore perfe rendis explicabo.</p>
-                <p className='read'>Read More &#10141; </p>
-            </section>
-
-            <section className='web'>
-            <img src={sas} alt={sas} />
-                <h3>SaaS Products </h3>
-                <p>Lorem ipsum dolor sit amet <br /> consecltetur adipisicing elit. Omnis <br /> tempore perfe rendis explicabo.</p>
-                <p className='read'>Read More &#10141; </p>
-            </section>
-
-        </section>
+      
+          <section className='web'>
+          <img src={dig} alt={dig} />
+              <h3>Digital Marketing</h3>
+              <p>Lorem ipsum dolor sit amet <br /> consecltetur adipisicing elit. Omnis <br /> tempore perfe rendis explicabo.</p>
+              <p className='read'>Read More &#10141; </p>
+          </section>
 
 
+          <section className='web'>
+          <img src={sas} alt={sas} />
+              <h3>SaaS Products </h3>
+              <p>Lorem ipsum dolor sit amet <br /> consecltetur adipisicing elit. Omnis <br /> tempore perfe rendis explicabo.</p>
+              <p className='read'>Read More &#10141; </p>
+          </section>
+
+      </section>
+
+        </Slide>
+
+
+        <Slide>
         <section className='red'>
             <section className='web'>
                 <img src={app} alt={app} />
@@ -70,6 +81,11 @@ const Service = () => {
             </section>
 
         </section>
+        </Slide>
+     
+
+
+       
     </section>
   )
 }

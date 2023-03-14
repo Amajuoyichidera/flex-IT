@@ -2,12 +2,14 @@ import React from 'react'
 import late from '../why/assets/late.png'
 import work from '../why/assets/work.png'
 import '../why/why.css'
+import { Fade } from "react-awesome-reveal";
 
 const why = () => {
   return (
     <section className='allwhy'>
 
-
+        <Fade>
+            
 <div class="contaienr">
 	<div class="tilt-box-wrap">
 		<span className="t_over"></span>
@@ -66,6 +68,10 @@ const why = () => {
             <button>Get In Touch</button>
 
         </section>
+
+        </Fade>
+
+
     </section>
   )
 }

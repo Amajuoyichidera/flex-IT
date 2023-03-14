@@ -7,61 +7,70 @@ import locate from '../footer/assets/locate.png'
 import mail from '../footer/assets/mail.png'
 import twi from '../footer/assets/twi.png'
 import you from '../footer/assets/you.png'
+import '../footer/footer.css'
+import { Slide } from "react-awesome-reveal";
 
 const Footer = () => {
   return (
     <footer>
-        <section>
+        <Slide>
+        <section className='sub'>
             <img src={logo} alt={logo} />
             <p>Lorem ipsum dolor, sit amet consectetur <br /> adipisicing elit. Voluptatibus facere modi <br /> possimus dignissimos, aliquam nobis eaque? <br /> Voluptatem magnam quisquam rem.</p>
-            <p>Subscribe To Our News Letter</p>
 
-            <section>
+            <section className='news'>
+                <p>Subscribe To Our News Letter</p>
                 <input type="text" placeholder='Email Address' />
                 <button>Subscribe</button>
-                <p>*We Will Not Share Your Personal Info</p>
+                <p className='share'>*We Will Not Share Your Personal Info</p>
             </section>
-            <p>© 2022 Created by: amin-themes</p>
+            <p>© 2023 Created by: David Amajuoyi</p>
         </section>
 
         <section>
             <h3>Useful Links</h3>
-            <p>Google</p>
-            <p>Dribble</p>
-            <p>Linkedin</p>
-            <p>Wikipedia</p>
+            <p> <span> &#10141; &nbsp;</span> Google</p>
+            <p><span> &#10141; &nbsp;</span>Dribble</p>
+            <p><span> &#10141; &nbsp;</span>Linkedin</p>
+            <p><span> &#10141; &nbsp;</span>Wikipedia</p>
         </section>
 
         <section>
             <h3>Resources</h3>
-            <p>Support</p>
-            <p>Dashboard</p>
-            <p>Drivers</p>
-            <p>Projects</p>
+            <p><span> &#10141; &nbsp;</span>Support</p>
+            <p><span> &#10141; &nbsp;</span>Dashboard</p>
+            <p><span> &#10141; &nbsp;</span>Drivers</p>
+            <p><span> &#10141; &nbsp;</span>Projects</p>
         </section>
 
         <section>
             <h3>Contact Information</h3>
 
-            <section>
+            <section className='examp'>
                 <img src={mail} alt={mail} />
                 <p>example@support.com</p>
             </section>
 
-            <section>
+            <section className='examp'>
                 <img src={locate} alt={locate} />
                 <p>5 xyz st., abc, alexandria, egypt.</p>
             </section>
 
-            <section>
+            <section className='examp'>
                 <img src={call} alt={call} />
                 <p>+20123456789</p>
             </section>
 
             <figure>
-                <img src={fb} alt={fb} /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+                <img src={fb} alt={fb} />
+                <img src={you} alt={you} />
+                <img src={inst} alt={inst} />
+                <img src={twi} alt={twi} />
             </figure>
         </section>
+
+        </Slide>
+       
     </footer>
   )
 }

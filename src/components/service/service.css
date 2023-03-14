@@ -1,0 +1,10 @@
+.services {
+    padding-top: 100px;
+    padding: 150px;
+    background: url(./assets/inner-page-hero.jpg), #1A244E;
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}

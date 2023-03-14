@@ -7,13 +7,17 @@ import two from '../abt/assets/two.png'
 import girly from '../abt/assets/girly.png'
 import sign from '../abt/assets/signature-light.png'
 import '../abt/abt.css'
+import { Fade } from "react-awesome-reveal";
+
 
 
 
 const Abt = () => {
   return (
     <section className='allabt'>
-        <section className='abt'>
+
+      <Fade>
+      <section className='abt'>
             <h1>. ABOUT US .</h1>
             <h1>Trusted By Worldwide <br /> Clients Since <img src={nine} alt={nine} /> </h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, <br /> aliquam est! rerum inventore animi at iusto totam sunt accusamus <br /> quia</p>
@@ -105,6 +109,9 @@ const Abt = () => {
           </section>
         </section>
 
+
+      </Fade>
+        
     </section>
   )
 }
