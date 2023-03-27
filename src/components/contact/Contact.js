@@ -21,7 +21,6 @@ const Contact = () => {
         <Slide>
         <section className='york'>
                 <h3>New York</h3>
-                <h5></h5>
                 <p>United States, 307 Wilshire, 2nd Av. <br /> New York 3516.</p>
 
                 <section className='mail'>
@@ -47,7 +46,6 @@ const Contact = () => {
 
             <section className='york'>
                 <h3>London</h3>
-                <h5></h5>
                 <p>United Kingdom, 12 Smith Town, 2nd <br /> Av. London 2159.</p>
 
                 <section className='mail'>
@@ -73,7 +71,6 @@ const Contact = () => {
 
               <section className='york'>
                 <h3>Tokio</h3>
-                <h5></h5>
                 <p>Japan, 307 Chinzo Appy Road, <br /> Portsika Way. Tokio 3516.</p>
 
                 <section className='mail'>

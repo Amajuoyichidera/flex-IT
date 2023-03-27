@@ -50,12 +50,6 @@
     transition: 1s;
     cursor: pointer;
 }
-.york h5 {
-    width: 70px;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    border-bottom: 3px solid #09AFF4;
-}
 form {
     padding-bottom: 70px;
 }
