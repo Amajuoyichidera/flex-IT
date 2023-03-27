@@ -2,7 +2,7 @@ import React from 'react'
 import Abt from './abt/Abt'
 import Provide from './provide/Provide'
 import Services from './serv/Services'
-import Why from './why/Why'
+import WhyUs from './why/whyUs'
 import Number from './number/Number'
 import Portfolio from './portfolio/Portfolio'
 import Trust from './trust/Trust'
@@ -15,7 +15,7 @@ const Home = () => {
       <Provide />
       <Services />
       <Abt />
-      <Why />
+      <WhyUs />
       <Number />
       <Portfolio />
       <Trust />
